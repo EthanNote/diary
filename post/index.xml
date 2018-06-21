@@ -6,10 +6,26 @@
     <description>Recent content in Posts on Diary</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 Jun 2018 00:44:39 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 22 Jun 2018 00:22:20 +0800</lastBuildDate>
     
 	<atom:link href="https://ethannote.github.io/diary/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>18 06 21</title>
+      <link>https://ethannote.github.io/diary/post/18-06-21/</link>
+      <pubDate>Fri, 22 Jun 2018 00:22:20 +0800</pubDate>
+      
+      <guid>https://ethannote.github.io/diary/post/18-06-21/</guid>
+      <description>早上老早听到老婆QQ消息声，就起来了，聊一会儿。顺便打开电脑看看睿思。突然电脑就黑屏了，自己重启。重启几分钟又黑屏，再开机屏幕就不亮了。
+怕是真的坏了吧，以前偶尔会有断电重启的情况，这次无论如何都不能开机了
+屏幕不亮，不显示主板Logo，估计是主板出了问题，如果是某个元器件或者芯片烧坏，怕是没得修。
+既然这样不如自己拆开看看，或许能看到些有用的东西。
+把笔记本带到公司，用螺丝刀和一片主机箱后板拆下来的挡板铁片作为工具开始拆机。大二的时候拿去清过一次灰，在一边看过拆机过程，于是自己慢慢拆。结合网上搜到的一些拆机过程，总算把主板拆下来了
+全是灰尘，或许灰尘太多，洗手空气中的水分，导致某个地方短路了？我能做的也只有清理灰尘，就拿来纸巾慢慢擦。之前组装电脑用的硅脂还剩下一点，就拿来给笔记本的CPU和GPU换了硅脂。
+装回去就简单些了，别忘记任何一个插槽。电源控制线插口比较别扭，不顺手，废了好大劲。
+所有线路接好，不等外壳装完，先插上电池尝试一下，屏幕还真点亮了。修好了。</description>
+    </item>
     
     <item>
       <title>18 06 20</title>
