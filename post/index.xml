@@ -6,10 +6,26 @@
     <description>Recent content in Posts on Diary</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 Jun 2018 00:32:04 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 21 Jun 2018 00:44:39 +0800</lastBuildDate>
     
 	<atom:link href="https://ethannote.github.io/diary/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>18 06 20</title>
+      <link>https://ethannote.github.io/diary/post/18-06-20/</link>
+      <pubDate>Thu, 21 Jun 2018 00:44:39 +0800</pubDate>
+      
+      <guid>https://ethannote.github.io/diary/post/18-06-20/</guid>
+      <description>早上醒来之后就盘算着今后的项目开发计划。突然就想到了系统建模语言，叫安防建模语言或者安防标记语言吧，使用XML或者某种文档格式做为基础，描述安防监控场景、设备、控制逻辑等元素，实现一模型一场景一部署，并且可以用来规范监控设备的生产标准。
+围绕这么一个建模语言，就可以做很多事情了
+ 语法：如何描述场景。静态的XML足够描述静态的场景，如建筑物，监控设备安装位置。而行为的定义比较麻烦，比如检测到哪些数据可判定为入侵，如何定义声东击西等规则，如何定义触发器，在不同情境下触发相应的报警行为。
+ 运行环境：模型可被执行，模型的运行时示例即为一个激活的安防系统
+ 设计工具：模型本体为文本文档，跟各种HTML设计器一样，有个安防模型设计器是很好的
+  公司空调还没弄好，热得不行，装网线的工程师都觉得受不了。
+跟老婆打电话，聊跟同学的相处问题。老婆受苦啦
+下午老早回来了，开一会儿卡车，洗个澡，晚饭吃热干面诱惑老婆，晚上再重新发西部世界的链接，终于入坑了。可别停不下来，明天还要交作业呢。</description>
+    </item>
     
     <item>
       <title>18-06-19</title>
