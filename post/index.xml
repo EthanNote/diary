@@ -6,10 +6,21 @@
     <description>Recent content in Posts on Diary</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Jul 2018 09:50:13 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 10 Jul 2018 00:53:36 +0800</lastBuildDate>
     
 	<atom:link href="https://ethannote.github.io/diary/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>18 07 09</title>
+      <link>https://ethannote.github.io/diary/post/18-07-09/</link>
+      <pubDate>Tue, 10 Jul 2018 00:53:36 +0800</pubDate>
+      
+      <guid>https://ethannote.github.io/diary/post/18-07-09/</guid>
+      <description>老板：画个图看看
+import matplotlib.pyplot as plt data=[...] xs=[...] ys=[...] plt.scatter(xs, ys) plt.show()  老板：看不懂，坐标轴没有注释
+WC你想看连环画呢</description>
+    </item>
     
     <item>
       <title>18 07 08</title>
