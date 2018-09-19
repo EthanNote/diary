@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="Tags" />
+<meta property="og:description" content="Let&#39;s remember how busy you were." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://ethannote.github.io/diary/tags/" />
+<meta property="og:updated_time" content="2018-05-27T23:19:22&#43;08:00"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Tags"/>
+<meta name="twitter:description" content="Let&#39;s remember how busy you were."/>
+<meta name="generator" content="Hugo 0.48" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Blog",
+  "headline": "Diary",
+  "url" : "https://ethannote.github.io/diary/tags/",
+  "author": {
+    "@type": "Person",
+    "name": "EthanNote"
+  },
+  "dateModified": "2018-05-27T23:19:22&#43;08:00",
+  "keywords": "",
+  "description": "Let&#39;s remember how busy you were."
+}
+</script>
+
+
+    <link rel="canonical" href="https://ethannote.github.io/diary/tags/">
+
+    <title>Diary</title>
+
+    <!-- combined, minified CSS -->
+    <link href="https://ethannote.github.io/diary/css/style.css" rel="stylesheet">
+
+    
+    <!-- RSS 2.0 feed -->
+    <link href="https://ethannote.github.io/diary/tags/index.xml" rel="alternate" type="application/rss+xml" title="Diary" />
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="https://ethannote.github.io/diary/">Home</a>
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="https://ethannote.github.io/diary/" rel="home">Diary</a></h1>
+        <p class="lead blog-description">Let&rsquo;s remember how busy you were.</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="https://ethannote.github.io/diary/post/18-05-26/">18 05 26</a></h2>
+    <p class="blog-post-meta"><time datetime="2018-05-27T23:19:22&#43;08:00">Sun May 27, 2018</time> by EthanNote</p>
+  </header>
+  必须承认开题答辩这事儿被我过于轻视了，前一天晚上才写报告做PPT，内容是之前写的基金，对今后将要做的东西基本上没有考虑。文档和PPT凌晨3点半才做好，早上7点起来去打印，8点开始答辩。老板让我把今后要实现的工作也写上，不能是列出已经做好的部分。
+其他人的问题也不少，整个一天两个老师都在给学生们讨论问题，叫我也晚上过去找他。虽然我去了之后也没我什么事情。
+最近几天一直很少睡，下午2点开完会后直接去“公司”给蒋师兄整理文献，晚上回的时候买了罐啤酒，带着啤酒找老板也不知道他们看到没。喝得很开心，趁着酒劲开始撩老婆。
+师弟说明天想去驾校练车，本想好好睡一觉，仔细想一下，还是决定去练一把。
+  <a href='https://ethannote.github.io/diary/post/18-05-26/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="https://ethannote.github.io/diary/post/18-05-23/">18-05-23</a></h2>
+    <p class="blog-post-meta"><time datetime="2018-05-24T02:40:48&#43;08:00">Thu May 24, 2018</time> by EthanNote</p>
+  </header>
+  发现 Freetype 的 Set_Char_Size 坑挺多，几经尝试改成了另一个API，Set_Pixel_Size,修复了文字边框相关的一些bug。
+新设备经过一番折腾给测出来了少量数据，回数率和精度都远低于早期版本。
+下午实现了 Freetype 生成的 Numpy array 渲染到 OpenGL。然后开始实现一个设备调试工具，针对单台雷达设备，显示定位目标和一段时间内的统计数据。命令行版本交给阿上去开发。
+老板问用户界面功能，老子就不写界面，纯命令行，爱用不用
+  <a href='https://ethannote.github.io/diary/post/18-05-23/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="https://ethannote.github.io/diary/post/18-05-22/">18-05-22</a></h2>
+    <p class="blog-post-meta"><time datetime="2018-05-22T22:37:23&#43;08:00">Tue May 22, 2018</time> by EthanNote</p>
+  </header>
+  上午继续研究 Python GUI 开发的一些方案，PyQt 是比较成熟的 GUI 库，并且对 OpenGL 支持很好。目前使用的 OpenGL 库 ModernGL 所支持的后端是包括 PyQt 的。
+中午回老校区拿了新设备，还是个裸板子。
+然后花了一下午时间解决 OpenGL 渲染文字的功能，尤其是渲染汉字。由于 ModernGL支持由 Numpy 生成矩阵字节写入 OpenGL 缓冲区，那么使用 Numpy 进行图像操作的 OpenCV 就不得不考虑一下了。我知道 OpenCV 包含渲染文本的 API 即 cv2.putText。然而无法显示中文。不得已又回到以前用过的 FreeType, 这个库对文字显示的处理必须得用“讲究”形容，花了几个小时看API文档，终于弄明白了字符图像的边距模型和间距模型。最终实现了将字符串渲染到 Numpy 数组。中文乱码问题可通过更换字体ttf文件解决，网上下载到了Arial+微软雅黑混合字体，简直神器。
+  <a href='https://ethannote.github.io/diary/post/18-05-22/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="https://ethannote.github.io/diary/post/18-05-21/">18-05-21</a></h2>
+    <p class="blog-post-meta"><time datetime="2018-05-22T22:37:15&#43;08:00">Tue May 22, 2018</time> by EthanNote</p>
+  </header>
+  8点左右火车到了西安，从五路口坐地铁到科技路站。第一次站这么拥挤的地铁，挤着车门站的。
+路上在思考无源雷达能不能定位无人机，想当年科索沃战争老式的无人机雷达侦测到了隐形的 F117 并且给捅下来了。
+整个一天都困得不行，看了看代码，看看B站，在沙发上趟一会儿，晚上下载黑客帝国重温。
+  <a href='https://ethannote.github.io/diary/post/18-05-21/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="https://ethannote.github.io/diary/post/18-05-20/">18-05-20</a></h2>
+    <p class="blog-post-meta"><time datetime="2018-05-20T19:21:53&#43;08:00">Sun May 20, 2018</time> by EthanNote</p>
+  </header>
+  中午收拾好东西出门，再去一次万达，去吃海底捞。12点半的时候比较饿，找到一家秦记肉夹馍，顺便关注了外卖。
+公交只须几站路，到了之后先略微逛了一会儿，然后到海底捞门口排队，一边喝免费的酸梅汤，吃着小零食，一边下五子棋。明显感觉到自己不如以前了。老婆迎来好几回，很开心。
+海底捞服务极其周到，而且享受到了学生优惠。只不过老婆在门外零食吃的有点多，很快吃不下了。
+没忘记诉老室友们，今天是舍庆节，一个个表示冲泡面，叫外卖庆祝一下。我还是不撒狗粮了吧。
+傍晚坐公交回学校，在实验室休息一会儿。
+离别的伤心又一次涌起，天越来越阴冷，老婆给我一件暖和的褂子穿，很暖和。还给我她过年带来没吃完的半袋花生。在宿舍楼下，我准备好骑车去火车站，抱着难过一阵，然后请她给种草莓。去东广场的路以前没走过，走到一半还是不自信地开了地图看一眼。用力骑了20多分钟就到了。
+100号座位并没有靠窗，这趟车靠窗的位置个位数貌似是9348。聊了一会儿就玩儿起了微信小程序五子棋，老婆挺厉害的。等她睡了我又玩起了残局，打发时间，直到困得受不了。
+  <a href='https://ethannote.github.io/diary/post/18-05-20/'>Read more →</a>
+</article> 
+
+
+
+
+
+<nav class="blog-pagination">
+  
+  <a class="btn btn-outline-primary" href="/diary/tags/page/5/" rel="prev" role="button">Previous page</a>
+  <a class="btn btn-outline-primary" href="/diary/tags/page/7/" rel="next" role="button">Next page</a>
+  
+  
+  
+</nav>
+
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+  <section class="sidebar-module sidebar-module-inset">
+    <h4>About</h4>
+    <p>A simple Hugo theme based on the <a href="http://v4-alpha.getbootstrap.com/examples/blog/">Bootstrap v4 blog example</a>.</p>
+  </section>
+  
+
+  
+        <section class="sidebar-module">
+    <h4>Recent Posts</h4>
+    <ol class="list-unstyled">
+
+
+<li><a href="/diary/post/18-09-06/">18-09-06</a></li>
+
+<li><a href="/diary/post/18-09-04/">18-09-04</a></li>
+
+<li><a href="/diary/post/18-09-03/">18-09-03</a></li>
+
+<li><a href="/diary/post/18-08-22/">18-08-22</a></li>
+
+<li><a href="/diary/post/18-08-18/">18-08-18</a></li>
+
+    </ol>
+  </section>
+
+  
+
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      Blog template created by <a href="https://twitter.com/mdo">@mdo</a>, ported to Hugo by <a href='https://twitter.com/mralanorth'>@mralanorth</a>.
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>
