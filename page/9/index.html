@@ -9,7 +9,7 @@
 <meta property="og:description" content="Let&#39;s remember how busy you were." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://ethannote.github.io/diary/" />
-<meta property="og:updated_time" content="2018-04-09T10:19:35&#43;08:00"/>
+<meta property="og:updated_time" content="2018-04-10T15:52:24&#43;08:00"/>
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Diary"/>
 <meta name="twitter:description" content="Let&#39;s remember how busy you were."/>
@@ -27,7 +27,7 @@
     "@type": "Person",
     "name": "EthanNote"
   },
-  "dateModified": "2018-04-09T10:19:35&#43;08:00",
+  "dateModified": "2018-04-10T15:52:24&#43;08:00",
   "keywords": "",
   "description": "Let&#39;s remember how busy you were."
 }
@@ -90,6 +90,22 @@
 
 <article class="blog-post">
   <header>
+    <h2 class="blog-post-title"><a href="https://ethannote.github.io/diary/post/18-04-10/">18-04-10</a></h2>
+    <p class="blog-post-meta"><time datetime="2018-04-10T15:52:24&#43;08:00">Tue Apr 10, 2018</time> by EthanNote</p>
+  </header>
+  重新设计 传输 建立 TCP 客户端、服务器，数据内容为 Python dict, 通过 pickle 将 dict 序列化并发送，服务器端反序列化得到dict对象
+import socket import pickle class Reporter: def __init__(self, ip, port): self.sock=socket.socket() self.sock.connect((ip, port)) def report(self, data: dict): if type(data)!=dict: raise TypeError('require dict') self.sock.send(pickle.dumps(data))  接收 使用标准库自带的 ThreadingTCPServer, 并实现 BaseRequestHandler 的子类，即可完成服务器端数据接收。重写父类的 handle 方法。
+data = self.request.recv(1024) # load dict object from bytes obj = pickle.loads(data) if type(obj) == dict: # set time obj['time'] = datetime.datetime.now() # check auth info if 'auth' in obj.
+  <a href='https://ethannote.github.io/diary/post/18-04-10/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
     <h2 class="blog-post-title"><a href="https://ethannote.github.io/diary/post/18-04-09/">18-04-09</a></h2>
     <p class="blog-post-meta"><time datetime="2018-04-09T10:19:35&#43;08:00">Mon Apr 09, 2018</time> by EthanNote</p>
   </header>
@@ -129,7 +145,7 @@ pip install pymongo  连接并读写数据库
 <article class="blog-post">
   <header>
     <h2 class="blog-post-title"><a href="https://ethannote.github.io/diary/post/">Posts</a></h2>
-    <p class="blog-post-meta"><time datetime="2018-09-06T20:36:20&#43;08:00">Thu Sep 06, 2018</time> by EthanNote</p>
+    <p class="blog-post-meta"><time datetime="2018-10-19T17:47:47&#43;08:00">Fri Oct 19, 2018</time> by EthanNote</p>
   </header>
   
   <a href='https://ethannote.github.io/diary/post/'>Read more →</a>
@@ -167,6 +183,8 @@ pip install pymongo  连接并读写数据库
     <ol class="list-unstyled">
 
 
+<li><a href="/diary/post/18-10-19/">18-10-19</a></li>
+
 <li><a href="/diary/post/18-09-06/">18-09-06</a></li>
 
 <li><a href="/diary/post/18-09-04/">18-09-04</a></li>
@@ -174,8 +192,6 @@ pip install pymongo  连接并读写数据库
 <li><a href="/diary/post/18-09-03/">18-09-03</a></li>
 
 <li><a href="/diary/post/18-08-22/">18-08-22</a></li>
-
-<li><a href="/diary/post/18-08-18/">18-08-18</a></li>
 
     </ol>
   </section>

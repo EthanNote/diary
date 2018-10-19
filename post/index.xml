@@ -6,10 +6,24 @@
     <description>Recent content in Posts on Diary</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 06 Sep 2018 20:36:20 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 19 Oct 2018 17:47:47 +0800</lastBuildDate>
     
 	<atom:link href="https://ethannote.github.io/diary/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>18-10-19</title>
+      <link>https://ethannote.github.io/diary/post/18-10-19/</link>
+      <pubDate>Fri, 19 Oct 2018 17:47:47 +0800</pubDate>
+      
+      <guid>https://ethannote.github.io/diary/post/18-10-19/</guid>
+      <description>毕设中期答辩，绞尽脑汁把地图系统写到报告里，本以为内容会水得不忍直视，居然给我强行设计了查询算法并实现了相关功能。需要感谢一下之前做的HyperDB项目。
+HyperDB是用来实现细分版本的 MineCraft， 使用纯色方块，细粒度体素取代贴图像素。当初在Unity3D上实现了Demo，并幻想着构建幻想乡。当把“纳奉”两个字印在赛钱箱表面上时，那是真滴开心，比起使用MC地图笔画实现自定义图像，这个真的是真正意义上实现了自定义物体。然而游戏引擎的场景管理系统不能支持无限多个方块。在正统的体素游戏引擎里一定会剪裁掉不可见表面，所以即使MC地图如此之大，表面却足够少。
+GitHub上有开源的体素游戏引擎，但似乎仍然是固定方块大小。我所期望的是牺牲掉无限大的地图空间，支持可变大小的方块。
+前阵子认真使用了一下CLion，拥抱Python多点，C、C++已经没有了往昔的激情，但终于似乎戒掉了IDE依赖症，认真查CMake文档。打算用一用GLFW框架。使用GLUT时最方便的特性是回调函数，但过于傻瓜，扩展起来很麻烦。GLFW就乖乖地把 MainLoop 的实现交给你来完成，避免了屎一样难看的回调代码，回调地狱这种风格只保留给JS就好了。
+老老实实从零开始写一个结构体是很恬静的一种感觉，甚至觉得C++真的很糟糕。C乃咬文嚼字陶冶情操的理想语言。
+答辩怕是要继续进行到晚饭之后，现在已经过了1800，开始饿了。其他同学的报告基本上跟自己无关，反正也听不懂，台下的各位大佬玩手机的玩手机，写博客的写博客。老板和老板娘已经面露困色，能坚持下来走完中期答辩流程也是辛苦啦。</description>
+    </item>
     
     <item>
       <title>18-09-06</title>
