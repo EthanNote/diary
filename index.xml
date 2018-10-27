@@ -6,10 +6,24 @@
     <description>Recent content on Diary</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Oct 2018 17:47:47 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 28 Oct 2018 01:32:16 +0800</lastBuildDate>
     
 	<atom:link href="https://ethannote.github.io/diary/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>18 10 28</title>
+      <link>https://ethannote.github.io/diary/post/18-10-28/</link>
+      <pubDate>Sun, 28 Oct 2018 01:32:16 +0800</pubDate>
+      
+      <guid>https://ethannote.github.io/diary/post/18-10-28/</guid>
+      <description>使用 glfw 的时候发现 glGenBuffers 未定义，经查找 glad 中提供了函数指针获取，但依赖于已有的 OpenGL 库，若现有链接库中不包含这个函数，那么glad提供的函数指针为NULL。
+所以一开始就应该老老实实把glfw、glew环境都配置好。睡一觉继续尝试。
+CMake导入个源码包真麻烦。转个VS先凑合用吧
+http://glew.sourceforge.net/
+http://www.glfw.org/download.html
+老老实实下载 Windows binary release</description>
+    </item>
     
     <item>
       <title>18-10-19</title>
